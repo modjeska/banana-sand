@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+footer {
+    background-color: rgb(255, 130, 130);
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 40px 0px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 130, 130);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    border-radius: 10px;
+    background-color: rgb(208, 208, 208);
+    margin: 30px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.employee-box {
+    padding: 0px 5px;
+    background-color: rgb(255, 249, 128);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    box-shadow:
+    0.4px 0.3px 0px rgba(0, 0, 0, 0.104),
+    0.9px 0.7px 0px rgba(0, 0, 0, 0.149),
+    1.6px 1.3px 0px rgba(0, 0, 0, 0.185),
+    2.9px 2.2px 0px rgba(0, 0, 0, 0.221),
+    5.4px 4.2px 0px rgba(0, 0, 0, 0.266),
+    13px 10px 0px rgba(0, 0, 0, 0.37);
+}
+
+.employee-name {
+    font-size: 30px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(212, 132, 255);
+}
+
+
+.employee-icon {
+    width: auto;
+    height: 20%;
+    padding: 10px 0px;
+}
+
+.box-content {
+    background-color: rgb(255, 128, 128);
+}
+
+.employee-data {
+    width: 80%;
+    padding: 5px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    background-color: rgb(255, 248, 172);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+    text-align: center;
+    overflow: auto;
+}
