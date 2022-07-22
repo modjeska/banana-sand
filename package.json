@@ -4,7 +4,7 @@
   "description": "team generator",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
     "inquirer": "^8.2.4"
   },
   "devDependencies": {
-    "@types/jest": "^28.1.6",
     "jest": "^28.1.3"
   }
 }
